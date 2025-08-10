@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Victor Soetan | Colorful Bio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;600;800&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Raleway', sans-serif;
+      background: linear-gradient(135deg, #ff6ec4, #7873f5);
+      color: #fff;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 30px;
+    }
+
+    .card {
+      background-color: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(12px);
+      padding: 40px;
+      border-radius: 20px;
+      max-width: 600px;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
+      animation: fadeIn 1.3s ease;
+    }
+
+    @keyframes fadeIn {
+      0% { opacity: 0; transform: translateY(20px); }
+      100% { opacity: 1; transform: translateY(0); }
+    }
+
+    .profile-pic {
+      width: 160px;
+      height: 160px;
+      border-radius: 50%;
+      border: 5px solid #fff;
+      object-fit: cover;
+      box-shadow: 0 0 15px rgba(255,255,255,0.3);
+      margin-bottom: 20px;
+      transition: transform 0.3s ease;
+    }
+
+    .profile-pic:hover {
+      transform: scale(1.05);
+    }
+
+    h1 {
+      font-size: 28px;
+      font-weight: 800;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 16px;
+      margin-bottom: 25px;
+      line-height: 1.6;
+      color: #f0f0f0;
+    }
+
+    .section-title {
+      font-size: 20px;
+      font-weight: 600;
+      margin-top: 30px;
+      margin-bottom: 10px;
+      color: #ffe3f0;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+      margin-bottom: 25px;
+    }
+
+    li {
+      margin: 8px 0;
+      font-size: 16px;
+      color: #fceaff;
+    }
+
+    .social a {
+      display: inline-block;
+      margin: 8px;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 600;
+      border: 2px solid #fff;
+      padding: 8px 16px;
+      border-radius: 8px;
+      transition: 0.3s ease;
+    }
+
+    .social a:hover {
+      background: #fff;
+      color: #ff6ec4;
+      box-shadow: 0 0 10px #fff;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <img src="victor.jpg" alt="Victor's Photo" class="profile-pic">
+    <h1>Victor Soetan</h1>
+    <p>I’m Victor passionate about tech, fitness, and leveling up. Building my future one line of code at a time 💻💪</p>
+
+    <div class="section-title">Skills</div>
+    <ul>
+      <li>HTML & CSS</li>
+      <li>Python (beginner)</li>
+      <li>Graphic Design</li>
+      <li>Football & Fitness</li>
+      <li>memecoin trader</li>
+    </ul>
+
+    <div class="section-title">Social Links</div>
+    <div class="social">
+      <a href="https://instagram.com/Viktoh_56" target="_blank">Instagram</a>
+      <a href="https://wa.me/2347050291787" target="_blank">WhatsApp</a>
+      <a href="https://github.com/Vickysoe2" target="_blank">GitHub</a>
+    </div>
+  </div>
+
+</body>
+</html>
